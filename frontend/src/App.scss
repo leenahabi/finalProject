@@ -1,0 +1,116 @@
+$success: #c7f282;
+$warning: #f1e681;
+$error: #f08181;
+$charcoal: #ccc;
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+body{
+  //background-color: oldlace;
+  background: url(./images/silver.jpg) no-repeat;
+  background-size: cover;
+  //@at-rootbackground-color: rgb(252, 249, 243) ;
+  //background:0.5;
+  //background-repeat: ;
+ // background-position: ;
+}
+.flash-success,
+.flash-warning,
+.flash-error {
+  border: 1px solid $charcoal;
+  display: block;
+  left: 25%;
+  padding: 30px;
+  position: fixed;
+  text-align: center;
+  top: 15%;
+  width: 50%;
+  z-index: 1;
+}
+.register{
+display: flex;
+margin-top:5%;
+justify-content: space-evenly;
+//border: 1px solid lightgrey;
+//margin:20px;
+
+}
+.intro-img{
+  border: 1px solid white;
+  border-radius:10px;
+  padding:50px;
+  //padding:20px;
+  background: white;
+  text-align: center;
+}
+.intro-img:hover{
+  //background-color:rgb(170, 232, 231);
+  background-color:#E1EEF4;
+  //background-color:rgb(198, 231, 250);
+}
+.flash-success {
+  background-color: $success;
+}
+
+.flash-warning {
+  background-color: $warning;
+}
+
+.flash-error {
+  background-color: $error;
+}
+.main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid lightgray;
+  background-color: white;
+  padding:40px 60px;
+  margin: 5% auto 2%;
+  button {
+    align-self: center;
+    max-width: 200px;
+  }
+}
+.block{
+  display: block;
+}
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid lightgray;
+  background-color: white;
+  padding:40px 60px;
+  margin: 5% auto 2%;
+  max-width: 60%;
+
+  h3,
+  input {
+    margin-bottom: 5%;
+  }
+
+  button {
+    align-self: center;
+    max-width: 200px;
+  }
+.center{
+  align-self: center;
+  text-align: center;
+}
+.form-inline{
+  align-self: center;
+    }
+}
+.form-check-inline {
+display: flex;
+justify-content: space-evenly;
+}
+#center {
+  text-align:center;
+}
+
+
+//map 
+
+#root > main > div > div.main-content > div > div > div:nth-child(2) > div{
+  border-color: rebeccapurple !important ;
+}
